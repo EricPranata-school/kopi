@@ -1,0 +1,156 @@
+.body{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+.kotak1{
+    background-color: rgb(209, 165, 111);
+    height: 82%;
+    width: 100%;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    height: 80%;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    gap: 10px;
+    display: flex;
+    box-shadow: 10px 10px rgb(32, 32, 32);
+}
+
+.logo{
+    margin-top: 17px;
+    height: 100px;
+    width: 100px;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+
+.input{
+    background-color: white;
+    width: 65%;
+    height: 20%;
+    flex-direction: column;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    background-color: white;
+    width: 95%;
+    height: 12px;
+    border-radius: 20px;
+    border-color: rgb(170, 111, 23);
+    font-size: 8px;
+    padding: 4.5px;
+}
+
+.tombol{
+    width: 65%;
+    height: 17%;
+    background-color: white;
+    flex-direction: row;
+    justify-items: end;
+}
+
+.loginwrap{
+    width: 23%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    height: 38%;
+    width: 88%;
+    
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lupa{
+    height: 26%;
+    width: 100%;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.lupatext{
+    text-decoration: none;
+}
+
+.button{
+    font-size: 8px;
+    width: 94%;
+    background-color: rgb(216, 177, 94);
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sosmed{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color:rgb(209, 165, 111);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kotak2{
+    background-color: rgb(209, 165, 111);
+    height: 18%;
+    width: 100%;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    
+}
+
+.sosmedimg{
+    width: 25px;
+}
+
+.akun{
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+}
+
+.qrbox{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    border-top-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 9px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
